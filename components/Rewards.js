@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/Image";
+import Image from "next/image";
 
 const RewardsCarousel = ({ rewardItems }) => {
     console.log(rewardItems);
@@ -31,7 +31,7 @@ const RewardsCarousel = ({ rewardItems }) => {
                                                     width={item.rewardImage.fields.file.details.image.width}
                                                     height={item.rewardImage.fields.file.details.image.height} />
                                                 <strong>{item.rewardType} </strong><br />
-                                                <span class="yellow"><strong>{item.rewardDetail}</strong></span> <br />
+                                                <span className="yellow"><strong>{item.rewardDetail}</strong></span> <br />
                                                 <span>{item.howToEarn}</span>
                                             </p>
                                         </div>
