@@ -1,6 +1,5 @@
 
 import { createClient } from "contentful";
-import Head from "next/Head";
 import Navbar from "../components/Navbar";
 import EmblaCarousel from "../components/Carousel";
 import RewardsCarousel from "../components/Rewards";
