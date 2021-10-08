@@ -21,6 +21,7 @@ export async function getStaticProps() {
       teamItems: tbcCupTeamItems.items.flatMap(p => p.fields).map(p => p.title),
       sideMenus: sideMenuItems.items.flatMap(p => p.fields),
       rewardItems: rewardItems.items.flatMap(p => p.fields),
+      revalidate: 10
     }
   }
 }
