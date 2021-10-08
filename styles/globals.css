@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  background: #F4E640;
   margin: 0;
   font-family: 'Roboto';
-  font-size: 1.5em;  
+  font-size: 1.5em;
 }
 .layout {
   min-height: 100vh;
@@ -24,6 +23,15 @@ header a {
 header h1, header h2 {
   margin: 0;
 }
+h1 {
+  font-size: 60px;
+  line-height: 0em;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1em;
+}
+
 header span {
   display: block;
   line-height: 1em;
@@ -42,10 +50,7 @@ header h2 {
 }
 footer {
   background: #111;
-  color: #bbb;
-  padding: 40px;
-  text-align: center;
-  margin-top: auto
+  display:block;
 }
 .page-content {
   max-width: 1200px;
@@ -53,4 +58,399 @@ footer {
   padding: 0 20px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.fifteenHundred{
+  /* max-width: 1500px; */
+  margin: 0 auto;
+  /* padding: 50px 30px; */
+}
+footer .socialIcons{
+    float:right;
+}
+footer .socialIcons a{
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+img{
+  height: auto;
+  outline: none;
+  border: none;
+}
+footer .footerLogo{
+
+}
+footer hr{}
+footer p {
+  font-size: 12px;
+  color: white;
+  line-height: 15px;
+  text-align: center;
+}
+.marginBottomSmall {
+  margin-bottom: 20px;
+}
+
+.marginTopSmall {
+    margin-top: 20px;
+}
+.clearFloat {
+    clear: both;
+}
+
+.heroText {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+  text-shadow: 0px 0px 30px #000000;
+}
+
+.heroModule {
+  background: white;
+  height: 550px;
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.heroText p {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  color:black;
+  margin-top: -50px;
+  text-shadow: 0px 0px 10px white;
+}
+
+.navbar-right{
+  display:flex;
+  justify-content: center;
+}
+
+.navbar-right a{
+  margin:2px;
+}
+nav {
+  display: inline-block;
+  float: right;
+}
+
+.navContainer {
+  background: #ffffff;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+header div#logo {
+  display: inline-block;
+  line-height: 90px;
+  float: left;
+  width: 250px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+}
+
+.regularNav a {
+  line-height: 50px;
+  margin-left: 20px;
+  color: #4d4d4f;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  text-decoration: none;
+
+}
+
+#textSliderModule {
+  background: #0d4e58;
+  overflow: auto;
+}
+
+.container3 {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.whyTeamCup {
+  display: inline-block;
+  line-height: 8em;
+  color: #f4bd41;
+  font-size: 20px;
+  font-weight: 900;
+  float: left;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+
+.iosSlider3 {
+width: 85%;
+overflow: auto;
+border-left: 1px solid #f4bd41;
+padding: 0px 0;
+height: 100px;
+position: relative;
+top: 0px;
+left: 0px;
+overflow: hidden;
+z-index: 1;
+perspective: 1000px;
+backface-visibility: hidden;
+width: 1223px;
+height: 100px;
+}
+
+.iosSlider3 .slider3 {
+width: 100%;
+height: 100%;
+position: relative;
+cursor: -webkit-grab;
+perspective: 0px;
+backface-visibility: hidden;
+transform: matrix(1, 0, 0, 1, -4661, 0);
+width: 3666px;
+}
+
+.iosSlider3 .slider3 .item3 {
+float: left;
+width: 100%;
+padding-right: 50px;
+backface-visibility: hidden;
+overflow: hidden;
+position: absolute;
+transform: matrix(1, 0, 0, 1, 3666, 0);
+width: 1172px;
+}
+
+.container3 .selectorsBlock3 {
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  width: 85px;
+  height: 5%;
+}
+
+.iosSlider3 .slider3 .item3 p {
+  font-size: 20px;
+  max-width: 100%;
+  line-height: 30px;
+  color: white;
+  padding-left: 25px;
+}
+
+
+
+
+.embla {
+  position: relative;
+  background: #0d4e58;
+  color: white;
+  padding: 20px;
+  max-width: 1530px;
+  margin-left: auto;
+  margin-right: auto;
+  height:120px;
+  overflow-y: hidden;
+}
+
+.embla_rewards{
+  position: relative;
+  background: #0d4e58;
+  color: white;
+  padding: 20px;
+  max-width: 1530px;
+  margin-left: auto;
+  margin-right: auto;
+  height:600px;
+  overflow-y: hidden;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport.is-draggable {
+  cursor: move;
+  cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -10px;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 100%;
+  padding-left: 10px;
+}
+
+.embla__slide_rewards{
+  position: relative;
+  min-width: 20%;
+  padding-left: 10px;
+}
+
+.embla__slide__inner {
+  position: relative;
+  overflow: hidden;
+  height: 190px;
+}
+
+.embla__slide__inner_rewards {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.embla__slide__inner p {
+  font-size: 20px;
+  max-width: 100%;
+  line-height: 30px;
+  color: white;
+  padding-left: 25px;
+}
+.embla__slide__img {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+
+.embla__button {
+  outline: 0;
+  cursor: pointer;
+  background-color: transparent;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  fill: #1bcacd;
+  padding: 0;
+}
+
+.embla__button:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.embla__button__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.tab {
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: #ffffff;
+  float: right;
+  width: 23%;
+  padding-right: 20px;
+}
+
+.tab button {
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 30px 14px 30px;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.tab button.active {
+  background-color: #fff;
+  border-left: 10px solid #f4bd41;
+  font-weight: 900;
+  text-align: left;
+}
+.tabcontent{
+  height: 600px;
+  background-position: left -100px bottom 0px;
+  background-size: contain;
+  overflow: hidden,
+
+}
+.tabcontentText {
+  width: 50%;
+  float: right;
+  padding: 50px;
+}
+
+.prizesModule {
+  width: 100%;
+  position: relative;
+  background: #0d4e58;
+  clear: both;
+  margin-bottom: 200px;
+}
+
+.item2 {
+border-left: 1px solid #3da8aa;
+backface-visibility: hidden;
+overflow: hidden;
+position: absolute;
+width: 358px;
+float: left;
+height: auto;
+border-right: 1px solid #3da8aa;
+border-bottom: 1px solid #3da8aa;
+}
+
+.yellow{
+  color:#f4bd41
+}
+.textBox p {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 18px;
+  font-size: 14px;
+  padding: 20px 20px;
 }
