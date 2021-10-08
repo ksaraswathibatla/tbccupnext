@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import EmblaCarousel from "../components/Carousel";
 import RewardsCarousel from "../components/Rewards";
 import SideMenu from "../components/sideMenu"
+
+
 export async function getStaticProps() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -21,7 +23,7 @@ export async function getStaticProps() {
       teamItems: tbcCupTeamItems.items.flatMap(p => p.fields).map(p => p.title),
       sideMenus: sideMenuItems.items.flatMap(p => p.fields),
       rewardItems: rewardItems.items.flatMap(p => p.fields),
-      revalidate: 10
+      revalidate: 1
     }
   }
 }
